@@ -12,6 +12,7 @@ var counter = 0
 
 class ViewController: UIViewController {
 
+    //this is the label outlet, a counter to track number of button presses
     @IBOutlet weak var count: UILabel!
     
     @IBOutlet weak var buttonprev: UIButton!
